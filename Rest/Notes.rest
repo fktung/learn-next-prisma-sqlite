@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/notes
+content-type: application/json
+
+{
+    "title": "sample",
+    "note": "Wed, 21 Oct 2015 18:27:50 GMT",
+    "author": "Bawon"
+}
+
+###
+DELETE http://localhost:3000/api/notes
